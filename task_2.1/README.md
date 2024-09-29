@@ -1,12 +1,15 @@
 ##Instalacja
-1. Sklonuj repozytorium
-git clone 
+1. Sklonowanie repozytorium
+# git clone C:/Users/tdyda/Documents/projekty/ZaliczenieJS
 
-2. Zainstaluj zależności:
-npm install
+2. Wejście do katalogu projektu
+# cd ZaliczenieJS
 
-3. Zbuduj projekt
-npm run build
+3. Instalacja zależności
+# npm install
 
-4. Uruchom aplikację
-npm run dev
+4. Budowanie projektu
+# npm run build
+
+5. Uruchomienie aplikacji w trybie developerskim
+# npm run dev
