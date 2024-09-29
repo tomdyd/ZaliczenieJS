@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kursy Walut</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+  <h1>Kursy Walut</h1>
+  <label for="baseCurrency">Wybierz walutę referencyjną:</label>
+  <select id="baseCurrency">
+    <option value="EUR">EUR</option>
+    <option value="USD">USD</option>
+    <option value="PLN">PLN</option>
+  </select>
+
+  <div>
+    <input type="checkbox" id="eur" checked>
+    <label for="eur">EUR</label>
+    <input type="checkbox" id="usd" checked>
+    <label for="usd">USD</label>
+    <input type="checkbox" id="pln" checked>
+    <label for="pln">PLN</label>
+  </div>
+
+  <canvas id="exchangeRatesChart" width="400" height="200"></canvas>
+</body>
+<script src="src/main.js"></script>
+</html>
