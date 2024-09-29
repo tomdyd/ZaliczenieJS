@@ -3,7 +3,7 @@
 # git clone C:/Users/tdyda/Documents/projekty/ZaliczenieJS
 
 2. Wejście do katalogu projektu
-# cd ZaliczenieJS
+# cd ZaliczenieJS/task2.1
 
 3. Instalacja zależności
 # npm install
